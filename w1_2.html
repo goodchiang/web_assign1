@@ -8,14 +8,14 @@
     <h1>問卷</h1>
     <section>
         <p>1.Your name</p>
-          <input type="text">
+          <input type="text" require>
         </p>
         <p>2.What is your gender?</p>
         <p>
-            <input type="radio" name="gender">
-            <label >Male</label><br>
-            <input type="radio" name="gender">
-            <label >Female</label>
+            <input type="radio" require name="gender" id="m">
+            <label for="m">Male</label><br>
+            <input type="radio" require name="gender" id="fm">
+            <label for="fm">Female</label>
         </p>
         <p>3.Birthday</p>
         <p>
@@ -23,43 +23,61 @@
         </p>
         <p>4.Which form of transport do you use?</p>
         <p>
-            <input type="checkbox" name="trans">
-            <label >Walking</lebel><br>
-            <input type="checkbox" name="trans">
-            <label >Bike</lebel><br>
-            <input type="checkbox" name="trans">
-            <label >Motocycle</lebel><br>
-            <input type="checkbox" name="trans">
-            <label >Walking</lebel><br>
-            <input type="checkbox" name="trans">
-            <label >Car</lebel><br>
-            <input type="checkbox" name="trans">
-            <label >Bus</lebel><br>
-            <input type="checkbox" name="trans">
-            <label >Metro</lebel><br>
-            <input type="checkbox" name="trans">
-            <label >Train</lebel><br>
+            <input type="checkbox" name="trans" id="walk">
+            <label for="walk">Walking</lebel><br>
+            <input type="checkbox" name="trans" id="bike">
+            <label for="bike">Bike</lebel><br>
+            <input type="checkbox" name="trans" id="moto">
+            <label for="moto">Motocycle</lebel><br>
+            <input type="checkbox" name="trans" id="car">
+            <label for="car">Car</lebel><br>
+            <input type="checkbox" name="trans" id="bus">
+            <label for="bus">Bus</lebel><br>
+            <input type="checkbox" name="trans" id="metro">
+            <label for="metro">Metro</lebel><br>
+            <input type="checkbox" name="trans" id="train">
+            <label for="train">Train</lebel><br>
+            <input type="checkbox" name="trans" id="plain">
+            <label for="plain">Airplane</lebel><br>
         </p>
         <p>5.What is the highest level of education you have completed?</p>
         <p>
-            <input type="radio" name="edu">
-            <label >Less than High School</label><br>
-            <input type="radio" name="edu">
-            <label >High School or equivalent</label><br>
-            <input type="radio" name="edu">
-            <label >Attended College/University</label><br>
-            <input type="radio" name="edu">
-            <label >Associate degree</label><br>
-            <input type="radio" name="edu">
-            <label >Bachelor's degree</label><br>
-            <input type="radio" name="edu">
-            <label >Master's degree</label><br>
-            <input type="radio" name="edu">
-            <label >Professional degree</label><br>
-            <input type="radio" name="edu">
-            <label >Doctorate degree</label><br>
-            <input type="radio" name="edu">
-            <label >I prefer not to answer</label><br>
+            <label>
+                <input type="radio" name="edu">Less than High School
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="edu">High School or equivalent
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="edu">Attended College/University
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="edu">Associate degree
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="edu">Bachelor's degree
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="edu">Master's degree
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="edu">Professional degree
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="edu">Doctorate degree
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="edu">I prefer not to answer
+            </label>
+            <br>
         </p>
         <p>6.Which industry do you work in or are most involved with?</p>
         <p>
@@ -82,6 +100,10 @@
         <p>8.Email address</p>
         <p>
             <input type="email">
+        </p>
+        <p>9.Presonal website</p>
+        <p>
+            <input type="url">
         </p>
     </section>
     <footer>
