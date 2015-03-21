@@ -1,111 +1,139 @@
 <!DOCTYPE html> 
 <html>
   <head>
+    <link href="w2_2.css" rel="stylesheet" type="text/css" />
     <meta charset="UTF-8">
     <title>問卷</title>
   </head>
   <body>
-    <h1>問卷</h1>
-    <section>
-        <p>1.Your name</p>
-          <input type="text" require>
-        </p>
-        <p>2.What is your gender?</p>
-        <p>
-            <input type="radio" require name="gender" id="m">
-            <label for="m">Male</label><br>
-            <input type="radio" require name="gender" id="fm">
-            <label for="fm">Female</label>
-        </p>
-        <p>3.Birthday</p>
-        <p>
-            <input type="date">
-        </p>
-        <p>4.Which form of transport do you use?</p>
-        <p>
-            <input type="checkbox" name="trans" id="walk">
-            <label for="walk">Walking</lebel><br>
-            <input type="checkbox" name="trans" id="bike">
-            <label for="bike">Bike</lebel><br>
-            <input type="checkbox" name="trans" id="moto">
-            <label for="moto">Motocycle</lebel><br>
-            <input type="checkbox" name="trans" id="car">
-            <label for="car">Car</lebel><br>
-            <input type="checkbox" name="trans" id="bus">
-            <label for="bus">Bus</lebel><br>
-            <input type="checkbox" name="trans" id="metro">
-            <label for="metro">Metro</lebel><br>
-            <input type="checkbox" name="trans" id="train">
-            <label for="train">Train</lebel><br>
-            <input type="checkbox" name="trans" id="plain">
-            <label for="plain">Airplane</lebel><br>
-        </p>
-        <p>5.What is the highest level of education you have completed?</p>
-        <p>
-            <label>
-                <input type="radio" name="edu">Less than High School
-            </label>
-            <br>
-            <label>
-                <input type="radio" name="edu">High School or equivalent
-            </label>
-            <br>
-            <label>
-                <input type="radio" name="edu">Attended College/University
-            </label>
-            <br>
-            <label>
-                <input type="radio" name="edu">Associate degree
-            </label>
-            <br>
-            <label>
-                <input type="radio" name="edu">Bachelor's degree
-            </label>
-            <br>
-            <label>
-                <input type="radio" name="edu">Master's degree
-            </label>
-            <br>
-            <label>
-                <input type="radio" name="edu">Professional degree
-            </label>
-            <br>
-            <label>
-                <input type="radio" name="edu">Doctorate degree
-            </label>
-            <br>
-            <label>
-                <input type="radio" name="edu">I prefer not to answer
-            </label>
-            <br>
-        </p>
-        <p>6.Which industry do you work in or are most involved with?</p>
-        <p>
-             <form>
-                <select>
-                    <option>Accounting
-                    <option>Writing&Editing
-                    <option>Animation
-                    <option>Photographic
-                    <option>Graphic Design
-                    <option>Computer Software
-                    <option>Computer Games
-                    <option>Information Technology&Services
-                </select>
-            </form>
-        </p>
-        <p>7.Your phone</p>
-            <input type="tel">
-        </p>
-        <p>8.Email address</p>
-        <p>
-            <input type="email">
-        </p>
-        <p>9.Presonal website</p>
-        <p>
-            <input type="url">
-        </p>
-    </section>
+    <header class="title">
+      <h1>問卷</h1>
+    </header>
+    <article id="questionaire">
+        <section>
+            <ol class="question">
+                <li>
+                    <h3>Your name</h3>
+                    <input type="text" require>
+                </li>
+                <li>
+                    <h3>What is your gender?</h3>
+                    <div>
+                      <input type="radio" require name="gender" id="m">
+                      <label for="m">Male</label><br>
+                    </div>
+                    <div>
+                        <input type="radio" require name="gender" id="fm">
+                        <label for="fm">Female</label>
+                    </div>
+                </li>
+                <li>
+                    <h3>Birthday</h3>
+                        <input type="date">
+                </li>
+                <li>
+                    <h3>Which form of transport do you use?</h3>
+                    <div>
+                        <input type="checkbox" name="trans" id="walk">
+                        <label for="walk">Walking</lebel>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="trans" id="bike">
+                        <label for="bike">Bike</lebel>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="trans" id="moto">
+                        <label for="moto">Motocycle</lebel>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="trans" id="car">
+                        <label for="car">Car</lebel>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="trans" id="bus">
+                        <label for="bus">Bus</lebel>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="trans" id="metro">
+                        <label for="metro">Metro</lebel>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="trans" id="train">
+                        <label for="train">Train</lebel>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="trans" id="plain">
+                        <label for="plain">Airplane</lebel>
+                    </div>
+                </li>
+                <li>
+                    <h3>What is the highest level of education you have completed?</h3>
+                    <div>
+                        <input type="radio" name="edu" id="lessHigh">
+                        <label for="lessHigh">Less than High School</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="edu" id="high">
+                        <label for="high">High School or equivalent </label>
+                    </div>
+                    <div>
+                        <input type="radio" name="edu" id="college">
+                        <label for="college">Attended College/University</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="edu" id="associate">
+                        <label for="associate">Associate degree</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="edu" id="bachelor">
+                        <label for="bachelor">Bachelor's degree</label>
+                    </div>
+                    <div>    
+                        <input type="radio" name="edu" id="master">
+                        <label for="master">Master's degree </label>
+                    </div>
+                    <div>    
+                        <input type="radio" name="edu" id="pro">
+                        <label for="pro">Professional degree</label>
+                    </div>
+                    <div>    
+                        <input type="radio" name="edu" id="doctor">
+                        <label for="doctor">Doctorate degree</label>
+                    </div>
+                        <input type="radio" name="edu" id="not">
+                        <label for="not">I prefer not to answer</label>
+                        </div>
+                    </li>
+                    <li>
+                        <h3>Which industry do you work in or are most involved with?</h3>
+                        <form>
+                            <select>
+                                <option>Accounting
+                                <option>Writing&Editing
+                                <option>Animation
+                                <option>Photographic
+                                <option>Graphic Design
+                                <option>Computer Software
+                                <option>Computer Games
+                                <option>Information Technology&Services
+                            </select>
+                        </form>
+                    </li>
+                    <li>
+                        <h3>Your phone</h3>
+                        <input type="tel">
+                    </li>
+                    <li>
+                        <h3>Email address</h3>
+                        <input type="email">
+                    </li>
+                    <li>
+                        <h3>Presonal website</h3>
+                        <input type="url">
+                    </li>
+                </ol>
+        </section>
+    </article>
     <footer>
         <input type="submit" value="送出">
     </footer>

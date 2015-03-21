@@ -1,4 +1,130 @@
-h1{
-  font: 16px/1.5 monospace;
-  text-decoration: underline;
+body{
+	background: url(http://subtlepatterns.com/patterns/school.png);
+}
+
+.title h1{
+	background-color:rgba(0,0,100,0.1);
+	font-size:2em;
+	text-align:center; 
+	border-radius:1em;
+}
+
+article#syllibus{
+	width:80%; 
+	padding:10px;
+	margin-right:auto;
+	margin-left:auto; 	
+	background:url(http://subtlepatterns.com/patterns/crossword.png);
+	border-radius:1em;
+}
+
+.s1,.s2{
+	display:inline-block;
+	padding:1em;
+	margin:0.5em;
+	background-color:rgba(0,0,100,0.1);
+	border-radius:1em;
+	vertical-align: top; 
+}
+
+.items{
+	border-bottom: 1px solid blue;
+}
+
+.s1 h4{
+	text-align:center; 
+	border-radius:1em;
+	font-weight:bold;
+	color:white;
+	background:rgba(150,150,150,1);
+	font-size:1em;
+}
+
+.itemTitle1{
+	width: 50%;
+}
+
+.itemTitle2{
+	width: 100%;
+}
+
+.idNum{
+	color:rgba(0,0,255,1);
+}
+
+.item1{
+	width:45%;
+}
+
+.itemTitle1,.item1{
+	display:inline-block;
+}
+
+.s2 img{
+	padding:0.5em;
+	background-color:rgba(0,255,0,1);
+}
+
+.s2 div img{
+	padding:0.5em;
+	background-color:black;
+}
+
+.percent{
+	width:20em;
+	padding:1em;
+	background-color:rgba(0,255,0,0.3);
+}
+
+.abilityItem{
+	width:20em;
+	padding:1em;
+	background-color:rgba(255,255,255,1);
+}
+
+.value{
+	width:18em;
+	list-style-type:none;
+}
+
+.value>li:nth-child(odd){
+	background-color:rgba(255,0,255,0.5);
+}
+
+.value>li:nth-child(even){
+	background-color:rgba(255,255,0,0.5);
+}
+
+.valueTitle{
+	display:inline-block;
+	width:5em;
+  
+}
+.valueItem{
+	color:rgba(255,0,0,1);
+}
+
+.ques{
+	padding:0.5em;
+}
+
+a:link{
+	color:blue;
+}
+
+a:visited{
+	color:purple;
+}
+
+a:hover{
+	color:red;
+}  
+
+a:active{
+	color:green;
+}
+
+footer{
+	padding:2em;
+	text-align:center; 
 }
